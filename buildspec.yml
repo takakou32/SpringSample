@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - echo "Running GradleBuild"
-      - gradle build
+      - gradlew build
   build:
     commands:
       - echo "Build completed on $(date)"
