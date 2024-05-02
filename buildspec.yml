@@ -1,0 +1,10 @@
+version: 0.1
+
+phases:
+  pre_build:
+    commands:
+      - echo "Running GradleBuild"
+      - gradle build
+  build:
+    commands:
+      - echo "Build completed on $(date)"
