@@ -4,7 +4,8 @@ phases:
   pre_build:
     commands:
       - echo "Running GradlewBuild"
-      - .\gradlew build
+      - chmod 755 ./gradlew
+      - ./gradlew build
   build:
     commands:
       - echo "Build completed on $(date)"
