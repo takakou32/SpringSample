@@ -14,7 +14,7 @@ phases:
       - echo start post build.
       - mkdir artifacts
       - cp build/libs/SpringSample-0.0.1-SNAPSHOT.jar artifacts
-  artifacts:
-    files:
-      - SpringSample-0.0.1-SNAPSHOT.jar
-    base-directory: artifacts
+artifacts:
+  files:
+    - SpringSample-0.0.1-SNAPSHOT.jar
+  base-directory: artifacts
