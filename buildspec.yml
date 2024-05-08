@@ -16,7 +16,7 @@ phases:
       - cp build/libs/SpringSample-0.0.1-SNAPSHOT.jar artifacts
 artifacts:
   commands:
-    - echo start artifacts 
+    - echo "start artifacts on on $(date)"
   files:
     - SpringSample-0.0.1-SNAPSHOT.jar
   base-directory: artifacts
