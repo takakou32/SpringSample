@@ -19,7 +19,7 @@ artifacts:
   commands:
     - echo "start artifacts on on $(date)"
   files:
-    - springSample-0.0.1-SNAPSHOT.jar
+    - SpringSample-0.0.1-SNAPSHOT.jar
     - appspec.yml
   commands:
     - echo "start artifacts on after $(date)"
