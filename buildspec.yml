@@ -16,6 +16,7 @@ phases:
       - cp build/libs/SpringSample-0.0.1-SNAPSHOT.jar artifacts
       - cp appspec.yml artifacts
       - cp spring-boot-demo-restart.sh artifacts
+      - cp spring-boot-demo.service artifacts
 artifacts:
   commands:
     - echo "start artifacts on on $(date)"
@@ -23,6 +24,7 @@ artifacts:
     - SpringSample-0.0.1-SNAPSHOT.jar
     - appspec.yml
     - spring-boot-demo-restart.sh
+    - spring-boot-demo.service
   commands:
     - echo "start artifacts on after $(date)"
   base-directory: artifacts

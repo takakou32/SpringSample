@@ -1,2 +1,4 @@
 #!/bin/sh
-java -jar /home/ec2-user/app/SpringSample-0.0.1-SNAPSHOT.jar
+cp spring-boot-demo.service /usr/lib/systemd/system/spring-boot-demo.service
+sudo systemctl daemon-reload
+sudo systemctl restart spring-boot-demo
