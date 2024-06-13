@@ -13,8 +13,8 @@ phases:
     commands:
       - echo start post build.
       - mkdir artifacts
-      - cp build/libs/SpringSample-0.0.1-SNAPSHOT.jar artifacts
-      - cp appspec.yml artifacts
+      - cp build/libs/SpringSample-0.0.1-SNAPSHOT.jar artifacts/SpringSample-0.0.1-SNAPSHOT.jar
+      - cp appspec.yml artifacts/appspec.yml
 artifacts:
   commands:
     - echo "start artifacts on on $(date)"
