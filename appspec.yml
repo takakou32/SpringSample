@@ -14,7 +14,7 @@ permissions:
     pattern: "**"
     owner: ec2-user
     group: ec2-user
-    mode: 444
+    mode: 777
     type:
       - file
 hooks:
